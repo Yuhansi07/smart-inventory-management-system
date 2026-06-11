@@ -1,0 +1,15 @@
+# Smart Inventory Management System
+
+A web application designed to manage stock levels, suppliers, inventory movements, and reports.
+
+## Features
+- Stock management
+- Supplier management
+- Low-stock alerts
+- Inventory reports
+- Admin dashboard
+
+## Technologies
+- React
+- Spring Boot
+- MySQL
