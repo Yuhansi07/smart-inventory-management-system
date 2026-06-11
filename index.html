@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Inventory Management System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Smart Inventory Management System</h1>
+
+    <div class="form-card">
+      <h2>Add Inventory Item</h2>
+
+      <input type="text" id="name" placeholder="Item Name" />
+      <input type="text" id="category" placeholder="Category" />
+      <input type="number" id="quantity" placeholder="Quantity" />
+      <input type="text" id="supplier" placeholder="Supplier" />
+      <input type="number" id="price" placeholder="Price" />
+
+      <button onclick="addItem()">Add Item</button>
+    </div>
+
+    <h2>Inventory Items</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Item</th>
+          <th>Category</th>
+          <th>Quantity</th>
+          <th>Supplier</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+
+      <tbody id="itemTable"></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
